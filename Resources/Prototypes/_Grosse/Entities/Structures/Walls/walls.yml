@@ -294,15 +294,6 @@
     active: true
 
 - type: entity
-  abstract: true
-  parent: BaseStructureWall
-  id: BaseWall
-  components:
-  - type: Occluder
-  - type: Sprite
-    drawdepth: Mobs
-
-- type: entity
   parent: BaseWall
   id: WallConcreteAC17
   name: concrete wall
