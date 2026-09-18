@@ -271,24 +271,34 @@
     - UnionCP
     - UnionAdmin
 
+
+
+
 - type: entity
   parent: UnionIDCard
-  id: UnionIDCardSectorialCommander
-  name: union sectorial commander ID card
+  id: ShoulderStrapsPrivate
+  name: private's shoulder straps
   components:
   - type: Sprite
-    layers:
-    - state: id_combine
-  - type: IdCard
-    jobTitle: job-title-civil-protection
-    jobIcon: JobIconUnionElite
-  #- type: ClothingGrantTag
-  #  tag: CombineUnit
-  - type: FactionClothing
-    faction: Xenoborg
-  - type: Access
-    tags:
-    - UnionBase
-    - Engineering
-    - UnionCP
-    - UnionAdmin
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+
+- type: entity
+  parent: UnionIDCard
+  id: ShoulderStrapsSergant
+  name: sergeant's shoulder straps
+  components:
+  - type: Sprite
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers: icon_serg
+
+# - type: entity
+#   parent: UnionIDCard
+#   id: ShoulderStrapsSergant
+#   name: sergeant's shoulder straps
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: icon-serg
+#     - state: icon-stripe
+#     - sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+#       state: icon

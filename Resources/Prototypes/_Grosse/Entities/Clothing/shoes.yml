@@ -45,3 +45,14 @@
       collection: FootstepSoldier
       params:
         volume: -5
+
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesPoliceShoes
+  name: police shoes
+  components:
+  - type: Sprite
+    sprite: _Grosse/rsi/Clothing/Shoes/police/shoes.rsi
+  - type: Clothing
+    sprite: _Grosse/rsi/Clothing/Shoes/police/shoes.rsi

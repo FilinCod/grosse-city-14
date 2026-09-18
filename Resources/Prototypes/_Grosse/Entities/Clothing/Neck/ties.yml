@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckTiePolice
+  name: police tie
+  description: Why do we all have to wear these ridiculous ties?
+  components:
+  - type: Sprite
+    sprite: _Grosse/rsi/Clothing/Neck/police/tie.rsi
+  - type: Clothing
+    sprite: _Grosse/rsi/Clothing/Neck/police/tie.rsi

@@ -67,7 +67,7 @@
       - CombineLeader
 
 - type: entity
-  parent: 
+  parent:
   - BaseFoldable
   - ClothingUniformBase
   id: ClothingUniformJumpsuitCitizenC17
@@ -117,3 +117,35 @@
     sprite: _Grosse/rsi/hlstaff/suit/ota.rsi
   - type: Clothing
     sprite: _Grosse/rsi/hlstaff/suit/ota.rsi
+
+# Police
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingPoliceJacket
+  name: police jacket
+  components:
+  - type: Sprite
+    sprite: _Grosse/rsi/Clothing/Uniforms/police/jacket.rsi
+  - type: Clothing
+    sprite: _Grosse/rsi/Clothing/Uniforms/police/jacket.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingPoliceParadeJacket
+  name: police parade jacket
+  components:
+  - type: Sprite
+    sprite: _Grosse/rsi/Clothing/Uniforms/police/parade-jacket.rsi
+  - type: Clothing
+    sprite: _Grosse/rsi/Clothing/Uniforms/police/parade-jacket.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingPoliceShirt
+  name: police shirt
+  components:
+  - type: Sprite
+    sprite: _Grosse/rsi/Clothing/Uniforms/police/shirt.rsi
+  - type: Clothing
+    sprite: _Grosse/rsi/Clothing/Uniforms/police/shirt.rsi
