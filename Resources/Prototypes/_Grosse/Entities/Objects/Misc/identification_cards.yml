@@ -281,6 +281,8 @@
   components:
   - type: Sprite
     sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers:
+    - state: icon
 
 - type: entity
   parent: UnionIDCard
@@ -289,16 +291,104 @@
   components:
   - type: Sprite
     sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
-    layers: icon_serg
+    layers: 
+    - state: icon
+    - state: icon-serg
 
-# - type: entity
-#   parent: UnionIDCard
-#   id: ShoulderStrapsSergant
-#   name: sergeant's shoulder straps
-#   components:
-#   - type: Sprite
-#     layers:
-#     - state: icon-serg
-#     - state: icon-stripe
-#     - sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
-#       state: icon
+- type: entity
+  parent: UnionIDCard
+  id: ShoulderStrapsLieutenant
+  name: sergeant's shoulder straps
+  components:
+  - type: Sprite
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers:
+    - state: icon
+    - state: icon-stripe
+    - state: icon-star2
+  - type: Clothing
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+
+- type: entity
+  parent: UnionIDCard
+  id: ShoulderStrapsSeniorLieutenant
+  name: sergeant's shoulder straps
+  components:
+  - type: Sprite
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers:
+    - state: icon
+    - state: icon-stripe
+    - state: icon-star3
+  - type: Clothing
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+
+- type: entity
+  parent: UnionIDCard
+  id: ShoulderStrapsCapitan
+  name: sergeant's shoulder straps
+  components:
+  - type: Sprite
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers:
+    - state: icon
+    - state: icon-stripe
+    - state: icon-star4
+  - type: Clothing
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+
+- type: entity
+  parent: UnionIDCard
+  id: ShoulderStrapsMajor
+  name: sergeant's shoulder straps
+  components:
+  - type: Sprite
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers:
+    - state: icon
+    - state: icon-stripe2
+    - state: icon-star
+  - type: Clothing
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+
+- type: entity
+  parent: UnionIDCard
+  id: ShoulderStrapSlieutenantColonel
+  name: sergeant's shoulder straps
+  components:
+  - type: Sprite
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers:
+    - state: icon
+    - state: icon-stripe2
+    - state: icon-star2
+  - type: Clothing
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+
+- type: entity
+  parent: UnionIDCard
+  id: ShoulderStrapSColonel
+  name: sergeant's shoulder straps
+  components:
+  - type: Sprite
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers:
+    - state: icon
+    - state: icon-stripe2
+    - state: icon-star3
+  - type: Clothing
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+
+- type: entity
+  parent: UnionIDCard
+  id: ShoulderStrapSGeneral
+  name: sergeant's shoulder straps
+  components:
+  - type: Sprite
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
+    layers:
+    - state: icon
+    - state: icon-stripe3
+    - state: icon-starbig
+  - type: Clothing
+    sprite: _Grosse\rsi\Misc\shoulder-straps.rsi
